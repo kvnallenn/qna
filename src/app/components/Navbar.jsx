@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import React from "react";
+import CustomSidebar from "./CustomSidebar";
 
 
 export const Navbar = () => {
@@ -54,26 +55,12 @@ export const Navbar = () => {
             </Button>
           </div>
           <div className="flex space-x-2 mx-3 block lg:hidden">
-            <button>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="size-6"
-              >
-                <path
-                  className="text-white"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                />
-              </svg>
-            </button>
+            <CustomSidebar/>
           </div>
         </div>
       </div>
+
+      
     </>
   );
 };
