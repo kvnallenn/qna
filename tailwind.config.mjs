@@ -57,7 +57,11 @@ export default {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			},
-  			violetCanva: '#8b3dff',
+  			violetCanva: '#393939',
+			cardCustom: '#1a1a1a',
+			labelCustom: '#f4f4f4',
+			borderCustom: 'grey',
+			transCustom: '#0000',
   			sidebar: {
   				DEFAULT: 'hsl(var(--sidebar-background))',
   				foreground: 'hsl(var(--sidebar-foreground))',
