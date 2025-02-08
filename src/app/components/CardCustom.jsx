@@ -6,11 +6,12 @@ import { Textarea } from "@/components/ui/textarea";
 
 const CardCustom = () => {
   return (
-    <Card className="w-[600px] bg-cardCustom border-none text-white">
+    <Card className="bg-cardCustom border-none text-white cols-span-2 grow w-full max-w-[600px]">
       <CardContent>
+        <div className="w-full justify-center">
         <Textarea
           className="border-borderCustom placeholder:text-gray-1000 rounded-xl focus-visible:outline-none focus-visible:ring-0 font-Inter"
-          placeholder="Type your question here."
+          placeholder="Type your question here." id="input-questions"
         />
         <div className="flex items-center">
           <div className="mt-3">
@@ -29,6 +30,7 @@ const CardCustom = () => {
           <Button className="text-white mt-3 ml-auto bg-green-600 hover:bg-green-700 font-Inter">
             Send
           </Button>
+        </div>
         </div>
       </CardContent>
     </Card>
