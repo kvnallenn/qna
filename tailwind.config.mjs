@@ -14,7 +14,10 @@ export default {
   			],
   			carter: [
   				'Carter One'
-  			]
+  			],
+			  Inter: [
+				'Inter'
+			]
   		},
   		colors: {
   			background: 'hsl(var(--background))',

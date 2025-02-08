@@ -12,12 +12,10 @@ export const Navbar = () => {
       <div className="p-5 max-h-fit bg-violetCanva">
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-5 text-white font-bold mx-3">
-            <div className="mr-0 xl:mr-6">
+            <div className="mr-0">
               <img src="/logo/logo.png" alt="Logo" className="w-13 h-9" />
             </div>
-            <div className="hidden lg:flex">Home</div>
-            <div className="hidden lg:flex">About</div>
-            <div className="hidden lg:flex">Contact</div>
+            <div className="hidden lg:flex font-carter">QnA</div>
           </div>
           <div
             className="block lg:hidden text-white font-carter text-xl"
@@ -25,13 +23,13 @@ export const Navbar = () => {
           >
             QnA
           </div>
-          <div className="flex grow max-w-xl space-x-2 hidden lg:flex">
+          <div className="flex grow ml-10 max-w-xl space-x-2 hidden lg:flex">
             <Input
-              className="text-black bg-white"
+              className="text-black bg-white font-Inter"
               type="text"
               placeholder="Search"
             />
-            <Button variant="outline" className="bg-white text-black font-bold" type="submit">
+            <Button variant="outline" className="bg-white text-black font-bold font-Inter" type="submit">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -50,7 +48,7 @@ export const Navbar = () => {
           </div>
           <div className="flex space-x-2 mx-3 hidden lg:flex">
             <LoginPage />
-            <Button variant="outline" className="bg-white text-black font-bold" type="submit">
+            <Button className="bg-white text-black font-bold font-Inter hover:bg-gray-200" type="submit">
               Sign up
             </Button>
           </div>

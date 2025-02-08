@@ -14,7 +14,7 @@ const LoginPage = () => {
     <>
       <Dialog>
         <DialogTrigger asChild>
-          <Button variant="ghost" className="bg-white text-black font-bold" type="submit">Login</Button>
+          <Button className="bg-white text-black font-bold hover:bg-gray-200 font-Inter" type="submit">Login</Button>
         </DialogTrigger>
         <DialogContent className="sm:max-w-[425px]">
           <DialogHeader>

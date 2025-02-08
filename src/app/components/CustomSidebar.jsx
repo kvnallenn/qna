@@ -36,9 +36,9 @@ export const CustomSidebar = () => {
               </div>
             </SheetTitle>
             <div className="flex flex-col items-start p-3 space-y-3 text-sm">
-              <div>HOME</div>
-              <div>ABOUT</div>
-              <div>CONTACT</div>
+              <div className="font-Inter">HOME</div>
+              <div className="font-Inter">ABOUT</div>
+              <div className="font-Inter">CONTACT</div>
             </div>
           </SheetHeader>
         </SheetContent>

@@ -1,12 +1,14 @@
+import Ads from "./Ads";
 import CardCustom from "./CardCustom";
+import MainSidebar from "./MainSidebar";
 
 const Content = () =>{
     return(
         <>
-        <div className="flex justify-around bg-cardCustom p-3">
-            <div></div>
+        <div className="flex bg-cardCustom p-7 justify-around">
+            <MainSidebar/>
             <CardCustom/>
-            <div></div>
+            <Ads/>
         </div>
         </>
     )
