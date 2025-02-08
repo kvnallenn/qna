@@ -5,7 +5,7 @@ import MainSidebar from "./MainSidebar";
 const Content = () =>{
     return(
         <>
-        <div className="flex bg-cardCustom p-7 justify-around">
+        <div className="flex bg-cardCustom p-7 justify-between">
             <MainSidebar/>
             <CardCustom/>
             <Ads/>
